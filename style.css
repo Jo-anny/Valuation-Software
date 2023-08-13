@@ -116,7 +116,7 @@ li a{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5em;
+    gap: 1em;
 }
 
 /* Styling the About Div */
@@ -309,11 +309,12 @@ footer{
        }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 430px) {
     .dem {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        gap: 1.5em;
     }
     .btn2 {
         margin: 1em;
