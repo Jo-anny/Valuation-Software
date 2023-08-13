@@ -341,6 +341,10 @@ footer{
     .menu-bar {
       margin-right: 1em;
     }
+    .menu-bar:hover {
+        padding: 0.1em;
+        border: 1px solid #000;
+    }
 
     .img-valutico img{
         width: 100%;
